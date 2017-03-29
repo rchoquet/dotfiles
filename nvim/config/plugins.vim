@@ -20,6 +20,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'ludovicchabant/vim-gutentags'
 "Plugin 'majutsushi/tagbar'
 Plugin 'lumiliet/vim-twig'
+Plugin 'rust-lang/rust.vim'
 call vundle#end()
 
 source ~/dotfiles/nvim/config/plugins/nerdtree.vim
@@ -28,3 +29,4 @@ source ~/dotfiles/nvim/config/plugins/ctrlp.vim
 source ~/dotfiles/nvim/config/plugins/airline.vim
 source ~/dotfiles/nvim/config/plugins/gutentags.vim
 source ~/dotfiles/nvim/config/plugins/ultisnips.vim
+source ~/dotfiles/nvim/config/plugins/rust.vim

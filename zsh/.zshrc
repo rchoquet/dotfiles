@@ -7,7 +7,6 @@ plugins=(git)
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-[[ $TERM != "screen" ]] && exec tmux -2
 
 # bugfix for PhpStorm (keyboard freeze) https://youtrack.jetbrains.com/issue/IDEA-78860
 export IBUS_ENABLE_SYNC_MODE=1
