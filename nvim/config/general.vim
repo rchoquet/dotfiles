@@ -1,7 +1,6 @@
 " enable filetype detection
 " enable filetype-specific plugins
 " enable filetype-specific indent scripts
-filetype plugin indent on
 syntax on
 
 colorscheme gruvbox
@@ -29,3 +28,6 @@ match ErrorMsg '\s\+$'
 
 " .html.twig file as html
 au BufNewFile,BufRead *.html.twig set filetype=html
+
+set ttyfast
+set lazyredraw

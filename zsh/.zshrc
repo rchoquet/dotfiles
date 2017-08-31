@@ -15,8 +15,8 @@ export TERM="xterm-256color"
 export EDITOR=/usr/bin/nvim
 
 alias ll="ls -alhF --color"
-alias debug_on="export XDEBUG_CONFIG=\"idekey=PHPSTORM\" && sudo php5enmod xdebug && sudo service apache2 reload"
-alias debug_off="unset XDEBUG_CONFIG && sudo php5dismod xdebug && sudo service apache2 reload"
+alias debug_on="export XDEBUG_CONFIG=\"idekey=PHPSTORM\" && sudo phpenmod xdebug && sudo service apache2 reload"
+alias debug_off="unset XDEBUG_CONFIG && sudo phpdismod xdebug && sudo service apache2 reload"
 
 ## Git
 gpr() {
@@ -32,6 +32,5 @@ BULLETTRAIN_PROMPT_ORDER=(
   git
   context
 )
-BULLETTRAIN_PROMPT_CHAR=∀
-
+BULLETTRAIN_PROMPT_CHAR=→
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
