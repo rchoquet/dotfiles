@@ -1,5 +1,3 @@
-source ~/.zshctp
-
 ZSH_THEME="bullet-train"
 plugins=(git)
 
