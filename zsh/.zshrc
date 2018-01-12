@@ -13,8 +13,7 @@ export TERM="xterm-256color"
 export EDITOR=/usr/bin/nvim
 
 alias ll="ls -alhF --color"
-alias debug_on="export XDEBUG_CONFIG=\"idekey=PHPSTORM\" && sudo phpenmod xdebug && sudo service apache2 reload"
-alias debug_off="unset XDEBUG_CONFIG && sudo phpdismod xdebug && sudo service apache2 reload"
+alias dmux="tmuxp load ~/workspace/docto-session.yaml"
 
 ## Git
 gpr() {
@@ -32,3 +31,12 @@ BULLETTRAIN_PROMPT_ORDER=(
 )
 BULLETTRAIN_PROMPT_CHAR=→
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+
