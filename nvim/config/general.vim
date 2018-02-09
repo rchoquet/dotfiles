@@ -29,5 +29,9 @@ match ErrorMsg '\s\+$'
 " .html.twig file as html
 au BufNewFile,BufRead *.html.twig set filetype=html
 
+:autocmd Filetype ruby set softtabstop=2
+:autocmd Filetype ruby set sw=2
+:autocmd Filetype ruby set ts=2
+
 set ttyfast
 set lazyredraw

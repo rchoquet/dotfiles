@@ -4,7 +4,7 @@ plugins=(git)
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-
+source ~/.zshdoc
 
 # bugfix for PhpStorm (keyboard freeze) https://youtrack.jetbrains.com/issue/IDEA-78860
 export IBUS_ENABLE_SYNC_MODE=1
@@ -40,3 +40,4 @@ export NVM_DIR="$HOME/.nvm"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
+export PATH=$HOME/bin:$PATH
