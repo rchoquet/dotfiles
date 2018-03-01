@@ -16,6 +16,8 @@ nnoremap <C-W><C-H> <C-W><C-M>
 
 noremap <C-K> }
 noremap <C-L> {
+noremap <C-J> F<space>
+noremap <C-M> f<space>
 
 " Lose focus on terminal mode
 tnoremap <Esc> <C-\><C-n>

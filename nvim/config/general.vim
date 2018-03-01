@@ -35,3 +35,6 @@ au BufNewFile,BufRead *.html.twig set filetype=html
 
 set ttyfast
 set lazyredraw
+
+set updatetime=750
+let g:auto_save_events=["CursorHold"]
