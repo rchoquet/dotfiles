@@ -3,7 +3,6 @@
 " enable filetype-specific indent scripts
 syntax on
 
-colorscheme gruvbox
 set background=dark
 
 " enable mouse management
